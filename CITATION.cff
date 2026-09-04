@@ -8,6 +8,7 @@ authors:
   - family-names: Ramírez
     given-names: Nicolás
 repository-code: https://github.com/xxxxbotanicaxxxx-collab/sgsnmf-coastal
+doi: 10.6084/m9.figshare.33437689
 license: MIT
 references:
   - type: article

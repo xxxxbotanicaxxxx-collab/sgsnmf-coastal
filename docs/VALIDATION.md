@@ -98,3 +98,8 @@ Octave en CI comprueba cinco iteraciones y no reemplaza el informe de 100.
 El mismo script de entrada `scripts/reproduce.py` se ejecutó fuera de Docker
 sin red ni intervención y generó los productos de los 730 píxeles y el
 sanity-check de 719 pares a partir del snapshot incluido.
+
+GitHub Actions ejecutó también las pruebas en Ubuntu: el trabajo `unit`
+aprobó y `octave` falló. El test público de descarga no se ejecuta en cada
+push y quedó omitido en ese run. Evidencia:
+https://github.com/xxxxbotanicaxxxx-collab/sgsnmf-coastal/actions/runs/33897543213
