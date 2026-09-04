@@ -34,7 +34,8 @@ python -m pip install --no-deps -e .
 El environment fija las dependencias principales; `requirements.lock.txt`
 fija también las transitivas del entorno verificado, con marcadores para
 paquetes exclusivos de Windows. El Dockerfile Linux está preparado; su
-build debe verificarse en un host Docker antes de declarar validado el contenedor.
+imagen `sgsnmf-coastal:0.1.0` se construyó correctamente con Docker Desktop
+el 4-sep-2026. La ejecución del contenedor se valida por separado.
 
 ## Ejemplo completo sin credenciales ni descarga manual
 

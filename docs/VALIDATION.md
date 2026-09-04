@@ -91,8 +91,9 @@ en pytest y CI para que el fallo siga visible. El informe completo usa
 otra realización del preprocesado Octave; semillas iguales no garantizan
 idéntica salida del eigensolver entre ejecuciones.
 
-EMIT tiene un wrapper pero no una escena real validada. El Dockerfile está
-preparado; no se ejecutó un build local por ausencia de Docker. Las pruebas
+EMIT tiene un wrapper pero no una escena real validada. La imagen Docker
+`sgsnmf-coastal:0.1.0` se construyó correctamente en Docker Desktop el
+4-sep-2026; queda por registrar la ejecución del contenedor. Las pruebas
 opcionales omitidas no se contabilizan como aprobadas. La prueba corta de
 Octave en CI comprueba cinco iteraciones y no reemplaza el informe de 100.
 El mismo script de entrada `scripts/reproduce.py` se ejecutó fuera de Docker
