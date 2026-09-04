@@ -1,0 +1,17 @@
+{
+  "title": "SGSNMF Coastal: Python port and reproducible coastal PACE workflow",
+  "author": "Nicolás Ramírez",
+  "type": "software",
+  "license": "MIT",
+  "keywords": [
+    "SGSNMF",
+    "hyperspectral unmixing",
+    "PACE OCI",
+    "coastal ocean",
+    "nonnegative matrix factorization",
+    "Python",
+    "HyperCoast"
+  ],
+  "draft_url": "https://figshare.com/account/items/33437689/edit",
+  "description": "Python research implementation of Spatial Group Sparsity Regularized Nonnegative Matrix Factorization (SGSNMF), based on Wang et al. (2017). The revised original uses projected-gradient subproblems; the port preserves that optimizer and documents its approximate scikit-image SLIC replacement. Includes CLI, fixed dependencies, Docker recipe, tests and original-code validation with GNU Octave.\n\nNumerical validation: after 100 iterations on the complete original demo, Python versus Octave abundance RMSE is 0.004907707 and maximum endmember SAD is 0.001309545 radians. Both exceed 0.001; strict numerical equivalence is not established. The included report documents all discrepancies and an NNLS conditioning diagnostic. The strict Octave test remains enabled and failed locally. Twelve other tests, including the public PACE smoke test, passed.\n\nNASA PACE OCI L2 AOP and BGC data were accessed using earthaccess and HyperCoast. A quality-controlled subset off La Guajira, Colombia, from 27 April 2024 (V3.2) contains 730 valid hyperspectral pixels and 719 colocated chlor_a reference pairs. The included small analysis snapshot supports replay without credentials and reproduced identical endmembers and abundances locally. Four factors are exploratory spectral fractions, not calibrated concentrations or confirmed identities of chlorophyll, CDOM, sediments or pure water. Standard chlor_a is a qualitative sanity-check, not ground truth. Independent measured spectral references are required for identification.\n\nWang, Zhong, Zhang and Xu (2017), IEEE TGRS 55(11), 6287-6304, doi:10.1109/TGRS.2017.2724944. Liu and Wu (2024), HyperCoast, JOSS 9(100), 7025, doi:10.21105/joss.07025. earthaccess contributors: https://github.com/earthaccess-dev/earthaccess. Source: https://github.com/xxxxbotanicaxxxx-collab/sgsnmf-coastal.\n\nMIT software license, retaining original notices. NASA-derived data retain PACE/OB.DAAC attribution. No credentials or original MATLAB demo data are redistributed. Docker build and real EMIT scene validation remain unverified."
+}

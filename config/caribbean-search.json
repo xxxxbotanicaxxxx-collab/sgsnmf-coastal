@@ -1,0 +1,20 @@
+[
+  {
+    "scene": "PACE_OCI.20240420T165701.L2.OC_AOP.V3_2.nc",
+    "links": [
+      "https://obdaac-tea.earthdatacloud.nasa.gov/ob-cumulus-prod-public/PACE_OCI.20240420T165701.L2.OC_AOP.V3_2.nc"
+    ]
+  },
+  {
+    "scene": "PACE_OCI.20240420T183521.L2.OC_AOP.V3_2.nc",
+    "links": [
+      "https://obdaac-tea.earthdatacloud.nasa.gov/ob-cumulus-prod-public/PACE_OCI.20240420T183521.L2.OC_AOP.V3_2.nc"
+    ]
+  },
+  {
+    "scene": "PACE_OCI.20240421T173202.L2.OC_AOP.V3_2.nc",
+    "links": [
+      "https://obdaac-tea.earthdatacloud.nasa.gov/ob-cumulus-prod-public/PACE_OCI.20240421T173202.L2.OC_AOP.V3_2.nc"
+    ]
+  }
+]

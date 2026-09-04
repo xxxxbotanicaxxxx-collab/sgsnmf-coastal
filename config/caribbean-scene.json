@@ -1,0 +1,17 @@
+{
+  "scene": "PACE_OCI.20240427T174513.L2.OC_AOP.V3_2.nc",
+  "collection": "PACE_OCI_L2_AOP",
+  "bbox": [
+    -74.5,
+    11.5,
+    -71,
+    13.5
+  ],
+  "chlorophyll_scene": [
+    "PACE_OCI.20240427T174513.L2.OC_BGC.V3_2.nc"
+  ],
+  "verified_catalog_date": "2026-09-04",
+  "data_access_status": "Authenticated earthaccess and HyperCoast read completed",
+  "valid_pixels": 730,
+  "chlorophyll_reference_pairs": 719
+}

@@ -1,0 +1,49 @@
+name: tests
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  unit:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.lock.txt && pip install --no-deps -e .
+      - run: pytest -q -m 'not octave and not integration'
+  octave:
+    runs-on: ubuntu-24.04
+    env:
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      SGSNMF_UPSTREAM: work/upstream
+      OCTAVE: octave-cli
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: sudo apt-get update && sudo apt-get install -y octave octave-image
+      - run: pip install -r requirements.lock.txt && pip install --no-deps -e .
+      - run: git clone https://github.com/Xinyu-Wang/SGSNMF_TGRS.git work/upstream && git -C work/upstream checkout e124bc76499bbbeebe10001b410a11b1d4945966
+      - run: pytest -q -m octave
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: octave-validation
+          path: /tmp/pytest-of-runner/**/equivalence.json
+  public-pace:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-24.04
+    env:
+      RUN_NETWORK_TESTS: '1'
+      OPENBLAS_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.lock.txt && pip install --no-deps -e .
+      - run: pytest -q -m integration

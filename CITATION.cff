@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+message: "Cite this wrapper together with Wang et al. (2017), HyperCoast, and earthaccess."
+title: "SGSNMF Coastal: Python port and coastal hyperspectral workflow"
+type: software
+version: 0.1.0
+date-released: 2026-09-04
+authors:
+  - family-names: Ramírez
+    given-names: Nicolás
+repository-code: https://github.com/xxxxbotanicaxxxx-collab/sgsnmf-coastal
+license: MIT
+references:
+  - type: article
+    title: "Spatial Group Sparsity Regularized Nonnegative Matrix Factorization for Hyperspectral Unmixing"
+    authors:
+      - family-names: Wang
+        given-names: Xinyu
+      - family-names: Zhong
+        given-names: Yanfei
+      - family-names: Zhang
+        given-names: Liangpei
+      - family-names: Xu
+        given-names: Yanyan
+    year: 2017
+    journal: "IEEE Transactions on Geoscience and Remote Sensing"
+    volume: 55
+    issue: 11
+    start: 6287
+    end: 6304
+    doi: 10.1109/TGRS.2017.2724944
+  - type: article
+    title: "HyperCoast: A Python Package for Visualizing and Analyzing Hyperspectral Data in Coastal Environments"
+    authors:
+      - family-names: Liu
+        given-names: Bingqing
+      - family-names: Wu
+        given-names: Qiusheng
+    year: 2024
+    journal: Journal of Open Source Software
+    volume: 9
+    issue: 100
+    start: 7025
+    doi: 10.21105/joss.07025
+  - type: software
+    title: earthaccess
+    authors:
+      - name: earthaccess contributors
+    url: https://github.com/earthaccess-dev/earthaccess
+    version: 0.19.0

@@ -1,0 +1,8 @@
+.git
+.venv
+.cache
+work
+.env
+.netrc
+results
+**/__pycache__

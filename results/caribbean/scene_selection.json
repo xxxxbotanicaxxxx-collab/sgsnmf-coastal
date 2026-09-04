@@ -1,0 +1,57 @@
+[
+  {
+    "scene": "PACE_OCI.20240420T165701.L2.OC_AOP.V3_2.nc",
+    "status": "rejected",
+    "reason": "Only 0 valid pixels after quality/band filtering. Diagnostics: {'in_bbox': 1627, 'finite_spectra': 0, 'nonnegative_spectra': 0, 'entirely_missing_wavelengths_nm': [400.0, 403.0, 405.0, 408.0, 410.0, 413.0, 415.0, 418.0, 420.0, 422.0, 425.0, 427.0, 430.0, 432.0, 435.0, 437.0, 440.0, 442.0, 445.0, 447.0, 450.0, 452.0, 455.0, 457.0, 460.0, 462.0, 465.0, 467.0, 470.0, 472.0, 475.0, 477.0, 480.0, 482.0, 485.0, 487.0, 490.0, 492.0, 495.0, 497.0, 500.0, 502.0, 505.0, 507.0, 510.0, 512.0, 515.0, 517.0, 520.0, 522.0, 525.0, 527.0, 530.0, 532.0, 535.0, 537.0, 540.0, 542.0, 545.0, 547.0, 550.0, 553.0, 555.0, 558.0, 560.0, 563.0, 565.0, 568.0, 570.0, 573.0, 575.0, 578.0, 580.0, 583.0, 586.0, 588.0, 613.0, 615.0, 618.0, 620.0, 623.0, 625.0, 627.0, 630.0, 632.0, 635.0, 637.0, 640.0, 641.0, 642.0, 643.0, 645.0, 646.0, 647.0, 648.0, 650.0, 651.0, 652.0, 653.0, 655.0, 656.0, 657.0, 658.0, 660.0, 661.0, 662.0, 663.0, 665.0, 666.0, 667.0, 668.0, 670.0, 671.0, 672.0, 673.0, 675.0, 676.0, 677.0, 678.0, 679.0, 681.0, 682.0, 683.0, 684.0, 686.0, 687.0, 688.0, 689.0, 691.0, 692.0, 693.0, 694.0, 696.0, 697.0, 698.0, 699.0], 'flag_counts_in_bbox': {'ATMFAIL': 0, 'LAND': 221, 'HIGLINT': 0, 'HILT': 0, 'HISATZEN': 1627, 'STRAYLIGHT': 0, 'CLDICE': 1627, 'COCCOLITH': 0, 'HISOLZEN': 0, 'LOWLW': 0, 'CHLFAIL': 0, 'NAVWARN': 0, 'MAXAERITER': 0, 'ATMWARN': 0, 'SEAICE': 0, 'NAVFAIL': 0, 'FILTER': 0, 'BOWTIEDEL': 0, 'HIPOL': 192, 'PRODFAIL': 1627}}"
+  },
+  {
+    "scene": "PACE_OCI.20240420T183521.L2.OC_AOP.V3_2.nc",
+    "status": "rejected",
+    "reason": "No scene pixels intersect bbox/window"
+  },
+  {
+    "scene": "PACE_OCI.20240421T173202.L2.OC_AOP.V3_2.nc",
+    "status": "rejected",
+    "reason": "Only 0 valid pixels after quality/band filtering. Diagnostics: {'in_bbox': 3313, 'finite_spectra': 766, 'nonnegative_spectra': 761, 'entirely_missing_wavelengths_nm': [], 'flag_counts_in_bbox': {'ATMFAIL': 0, 'LAND': 457, 'HIGLINT': 2856, 'HILT': 4, 'HISATZEN': 0, 'STRAYLIGHT': 339, 'CLDICE': 2705, 'COCCOLITH': 5, 'HISOLZEN': 0, 'LOWLW': 0, 'CHLFAIL': 0, 'NAVWARN': 0, 'MAXAERITER': 0, 'ATMWARN': 0, 'SEAICE': 0, 'NAVFAIL': 0, 'FILTER': 0, 'BOWTIEDEL': 0, 'HIPOL': 0, 'PRODFAIL': 2763}}"
+  },
+  {
+    "scene": "PACE_OCI.20240421T173702.L2.OC_AOP.V3_2.nc",
+    "status": "rejected",
+    "reason": "Only 0 valid pixels after quality/band filtering. Diagnostics: {'in_bbox': 703, 'finite_spectra': 569, 'nonnegative_spectra': 559, 'entirely_missing_wavelengths_nm': [], 'flag_counts_in_bbox': {'ATMFAIL': 0, 'LAND': 0, 'HIGLINT': 703, 'HILT': 0, 'HISATZEN': 0, 'STRAYLIGHT': 273, 'CLDICE': 338, 'COCCOLITH': 0, 'HISOLZEN': 0, 'LOWLW': 0, 'CHLFAIL': 0, 'NAVWARN': 167, 'MAXAERITER': 0, 'ATMWARN': 0, 'SEAICE': 0, 'NAVFAIL': 0, 'FILTER': 0, 'BOWTIEDEL': 0, 'HIPOL': 0, 'PRODFAIL': 338}}"
+  },
+  {
+    "scene": "PACE_OCI.20240422T180658.L2.OC_AOP.V3_2.nc",
+    "status": "rejected",
+    "reason": "Only 0 valid pixels after quality/band filtering. Diagnostics: {'in_bbox': 1783, 'finite_spectra': 772, 'nonnegative_spectra': 648, 'entirely_missing_wavelengths_nm': [], 'flag_counts_in_bbox': {'ATMFAIL': 0, 'LAND': 187, 'HIGLINT': 0, 'HILT': 1, 'HISATZEN': 2, 'STRAYLIGHT': 277, 'CLDICE': 1219, 'COCCOLITH': 0, 'HISOLZEN': 0, 'LOWLW': 4, 'CHLFAIL': 0, 'NAVWARN': 1783, 'MAXAERITER': 0, 'ATMWARN': 0, 'SEAICE': 0, 'NAVFAIL': 0, 'FILTER': 0, 'BOWTIEDEL': 0, 'HIPOL': 0, 'PRODFAIL': 1219}}"
+  },
+  {
+    "scene": "PACE_OCI.20240423T170338.L2.OC_AOP.V3_2.nc",
+    "status": "rejected",
+    "reason": "Only 0 valid pixels after quality/band filtering. Diagnostics: {'in_bbox': 1681, 'finite_spectra': 0, 'nonnegative_spectra': 0, 'entirely_missing_wavelengths_nm': [400.0, 403.0, 405.0, 408.0, 410.0, 413.0, 415.0, 418.0, 420.0, 422.0, 425.0, 427.0, 430.0, 432.0, 435.0, 437.0, 440.0, 442.0, 445.0, 447.0, 450.0, 452.0, 455.0, 457.0, 460.0, 462.0, 465.0, 467.0, 470.0, 472.0, 475.0, 477.0, 480.0, 482.0, 485.0, 487.0, 490.0, 492.0, 495.0, 497.0, 500.0, 502.0, 505.0, 507.0, 510.0, 512.0, 515.0, 517.0, 520.0, 522.0, 525.0, 527.0, 530.0, 532.0, 535.0, 537.0, 540.0, 542.0, 545.0, 547.0, 550.0, 553.0, 555.0, 558.0, 560.0, 563.0, 565.0, 568.0, 570.0, 573.0, 575.0, 578.0, 580.0, 583.0, 586.0, 588.0, 613.0, 615.0, 618.0, 620.0, 623.0, 625.0, 627.0, 630.0, 632.0, 635.0, 637.0, 640.0, 641.0, 642.0, 643.0, 645.0, 646.0, 647.0, 648.0, 650.0, 651.0, 652.0, 653.0, 655.0, 656.0, 657.0, 658.0, 660.0, 661.0, 662.0, 663.0, 665.0, 666.0, 667.0, 668.0, 670.0, 671.0, 672.0, 673.0, 675.0, 676.0, 677.0, 678.0, 679.0, 681.0, 682.0, 683.0, 684.0, 686.0, 687.0, 688.0, 689.0, 691.0, 692.0, 693.0, 694.0, 696.0, 697.0, 698.0, 699.0], 'flag_counts_in_bbox': {'ATMFAIL': 0, 'LAND': 639, 'HIGLINT': 0, 'HILT': 5, 'HISATZEN': 682, 'STRAYLIGHT': 57, 'CLDICE': 1622, 'COCCOLITH': 0, 'HISOLZEN': 0, 'LOWLW': 0, 'CHLFAIL': 0, 'NAVWARN': 0, 'MAXAERITER': 0, 'ATMWARN': 0, 'SEAICE': 0, 'NAVFAIL': 0, 'FILTER': 0, 'BOWTIEDEL': 0, 'HIPOL': 0, 'PRODFAIL': 1681}}"
+  },
+  {
+    "scene": "PACE_OCI.20240423T170838.L2.OC_AOP.V3_2.nc",
+    "status": "rejected",
+    "reason": "Only 0 valid pixels after quality/band filtering. Diagnostics: {'in_bbox': 1308, 'finite_spectra': 22, 'nonnegative_spectra': 15, 'entirely_missing_wavelengths_nm': [], 'flag_counts_in_bbox': {'ATMFAIL': 0, 'LAND': 0, 'HIGLINT': 0, 'HILT': 0, 'HISATZEN': 741, 'STRAYLIGHT': 0, 'CLDICE': 1308, 'COCCOLITH': 0, 'HISOLZEN': 0, 'LOWLW': 0, 'CHLFAIL': 0, 'NAVWARN': 880, 'MAXAERITER': 0, 'ATMWARN': 0, 'SEAICE': 0, 'NAVFAIL': 0, 'FILTER': 0, 'BOWTIEDEL': 0, 'HIPOL': 1, 'PRODFAIL': 1308}}"
+  },
+  {
+    "scene": "PACE_OCI.20240424T173837.L2.OC_AOP.V3_2.nc",
+    "status": "rejected",
+    "reason": "Only 0 valid pixels after quality/band filtering. Diagnostics: {'in_bbox': 1070, 'finite_spectra': 729, 'nonnegative_spectra': 679, 'entirely_missing_wavelengths_nm': [], 'flag_counts_in_bbox': {'ATMFAIL': 0, 'LAND': 139, 'HIGLINT': 928, 'HILT': 331, 'HISATZEN': 0, 'STRAYLIGHT': 236, 'CLDICE': 301, 'COCCOLITH': 2, 'HISOLZEN': 0, 'LOWLW': 16, 'CHLFAIL': 0, 'NAVWARN': 1070, 'MAXAERITER': 2, 'ATMWARN': 1, 'SEAICE': 0, 'NAVFAIL': 0, 'FILTER': 0, 'BOWTIEDEL': 0, 'HIPOL': 0, 'PRODFAIL': 620}}"
+  },
+  {
+    "scene": "PACE_OCI.20240425T181336.L2.OC_AOP.V3_2.nc",
+    "status": "rejected",
+    "reason": "Only 0 valid pixels after quality/band filtering. Diagnostics: {'in_bbox': 2316, 'finite_spectra': 1, 'nonnegative_spectra': 0, 'entirely_missing_wavelengths_nm': [], 'flag_counts_in_bbox': {'ATMFAIL': 0, 'LAND': 238, 'HIGLINT': 0, 'HILT': 0, 'HISATZEN': 1004, 'STRAYLIGHT': 1, 'CLDICE': 2315, 'COCCOLITH': 0, 'HISOLZEN': 0, 'LOWLW': 1, 'CHLFAIL': 0, 'NAVWARN': 0, 'MAXAERITER': 0, 'ATMWARN': 0, 'SEAICE': 0, 'NAVFAIL': 0, 'FILTER': 0, 'BOWTIEDEL': 0, 'HIPOL': 0, 'PRODFAIL': 2315}}"
+  },
+  {
+    "scene": "PACE_OCI.20240426T171015.L2.OC_AOP.V3_2.nc",
+    "status": "rejected",
+    "reason": "Only 0 valid pixels after quality/band filtering. Diagnostics: {'in_bbox': 2335, 'finite_spectra': 0, 'nonnegative_spectra': 0, 'entirely_missing_wavelengths_nm': [400.0, 403.0, 405.0, 408.0, 410.0, 413.0, 415.0, 418.0, 420.0, 422.0, 425.0, 427.0, 430.0, 432.0, 435.0, 437.0, 440.0, 442.0, 445.0, 447.0, 450.0, 452.0, 455.0, 457.0, 460.0, 462.0, 465.0, 467.0, 470.0, 472.0, 475.0, 477.0, 480.0, 482.0, 485.0, 487.0, 490.0, 492.0, 495.0, 497.0, 500.0, 502.0, 505.0, 507.0, 510.0, 512.0, 515.0, 517.0, 520.0, 522.0, 525.0, 527.0, 530.0, 532.0, 535.0, 537.0, 540.0, 542.0, 545.0, 547.0, 550.0, 553.0, 555.0, 558.0, 560.0, 563.0, 565.0, 568.0, 570.0, 573.0, 575.0, 578.0, 580.0, 583.0, 586.0, 588.0, 613.0, 615.0, 618.0, 620.0, 623.0, 625.0, 627.0, 630.0, 632.0, 635.0, 637.0, 640.0, 641.0, 642.0, 643.0, 645.0, 646.0, 647.0, 648.0, 650.0, 651.0, 652.0, 653.0, 655.0, 656.0, 657.0, 658.0, 660.0, 661.0, 662.0, 663.0, 665.0, 666.0, 667.0, 668.0, 670.0, 671.0, 672.0, 673.0, 675.0, 676.0, 677.0, 678.0, 679.0, 681.0, 682.0, 683.0, 684.0, 686.0, 687.0, 688.0, 689.0, 691.0, 692.0, 693.0, 694.0, 696.0, 697.0, 698.0, 699.0], 'flag_counts_in_bbox': {'ATMFAIL': 0, 'LAND': 219, 'HIGLINT': 0, 'HILT': 1, 'HISATZEN': 301, 'STRAYLIGHT': 0, 'CLDICE': 2335, 'COCCOLITH': 0, 'HISOLZEN': 0, 'LOWLW': 0, 'CHLFAIL': 0, 'NAVWARN': 2156, 'MAXAERITER': 0, 'ATMWARN': 0, 'SEAICE': 0, 'NAVFAIL': 0, 'FILTER': 0, 'BOWTIEDEL': 0, 'HIPOL': 0, 'PRODFAIL': 2335}}"
+  },
+  {
+    "scene": "PACE_OCI.20240427T174513.L2.OC_AOP.V3_2.nc",
+    "status": "selected",
+    "pairs": 719
+  }
+]

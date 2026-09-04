@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools==84.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sgsnmf-coastal"
+version = "0.1.0"
+description = "Auditable SGSNMF port with coastal hyperspectral data workflows"
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+license = "MIT"
+license-files = ["LICENSE", "licenses/*.txt"]
+dependencies = ["numpy==2.2.6", "scipy==1.15.3", "scikit-image==0.25.2", "xarray==2025.6.1", "matplotlib==3.11.1", "h5netcdf==1.8.1", "h5py==3.16.0"]
+
+[project.optional-dependencies]
+coastal = ["hypercoast==0.27.0", "earthaccess==0.19.0"]
+test = ["pytest==9.1.1"]
+
+[project.scripts]
+sgsnmf-coastal = "sgsnmf_py.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["sgsnmf_py*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["integration: fixed public scene requires network", "octave: requires GNU Octave and upstream demo"]

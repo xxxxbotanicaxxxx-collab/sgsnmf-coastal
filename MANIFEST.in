@@ -1,0 +1,10 @@
+include THIRD_PARTY.md
+include CITATION.cff
+include requirements.lock.txt
+include environment.yml
+include Dockerfile
+recursive-include docs *.md
+recursive-include licenses *.txt
+recursive-include scripts *.py
+recursive-include config *.json
+recursive-include data *.npz *.md
