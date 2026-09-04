@@ -1,6 +1,8 @@
 # GitHub + Figshare
 
-Figshare es el archivo de publicación elegido por el usuario. No se creará
+Figshare es el archivo de publicación elegido por el usuario. La versión
+0.1.0 se publicó en https://doi.org/10.6084/m9.figshare.33437689 con el ZIP
+y el wheel bajo licencia MIT. No se creará
 una cápsula CodeOcean del port. El enlace a la cápsula original de Wang se
 mantiene exclusivamente como procedencia de su licencia MIT.
 

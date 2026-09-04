@@ -141,10 +141,9 @@ La prueba corta Octave de cinco iteraciones también falló localmente
 [Preparación de Figshare](docs/FIGSHARE.md). El script
 `scripts/reproduce.py` genera `/results` sin interacción, con un fixture
 archivado predeterminado y opción NASA por secretos. No depende de MATLAB.
-GitHub contiene el código versionado. Figshare ha reservado el DOI del port
+GitHub contiene el código versionado. Figshare publicó el port con DOI
 [10.6084/m9.figshare.33437689](https://doi.org/10.6084/m9.figshare.33437689)
-para archivar esta versión y sus resultados. El depósito aún está en
-borrador: el DOI se activará al publicarlo.
+y archivó esta versión y sus resultados bajo licencia MIT.
 
 ## Créditos, citas y licencia
 
