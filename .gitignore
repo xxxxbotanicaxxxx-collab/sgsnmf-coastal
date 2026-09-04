@@ -14,3 +14,4 @@ results/caribbean/input_snapshot.npz
 data/*.nc
 build/
 dist/
+docker-results/
