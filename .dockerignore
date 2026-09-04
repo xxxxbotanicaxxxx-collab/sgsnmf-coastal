@@ -1,6 +1,10 @@
 .git
 .venv
 .cache
+.pytest_cache
+build
+dist
+*.egg-info
 work
 .env
 .netrc
