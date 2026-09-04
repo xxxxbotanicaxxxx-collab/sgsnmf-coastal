@@ -1,0 +1,25 @@
+{
+  "validated_at": "2026-09-04T14:51:59-05:00",
+  "platform": "Docker Desktop, desktop-linux",
+  "image": "sgsnmf-coastal:0.1.0",
+  "image_manifest_sha256": "801c70dc2a2af641553ed63cb322f5e54874edebb87ad603b93c58d72be0f76d",
+  "result": "completed",
+  "valid_pixels": 730,
+  "iterations": 100,
+  "chlorophyll_pairs": 719,
+  "mean_reconstruction_rmse_physical_units": 7.220768683867401e-05,
+  "max_sum_to_one_error": 0.0013526065860400838,
+  "windows_replay_comparison": {
+    "rmse_absolute_difference": 1.06932472571545e-07,
+    "final_sse_absolute_difference": 0.0135936485033978,
+    "maximum_spearman_absolute_difference": 0.00639587947924536,
+    "byte_identical": false
+  },
+  "outputs": {
+    "abundance_maps.png": "d361cb97a59ea666852854c8e7226e030e3df6da2928169c6af23e355c0405bb",
+    "abundances.nc": "c59926f7ce0c706b69209b2c0b8fd2705bd164155b09fcd8bc40d77133d4538f",
+    "chlorophyll_sanity.png": "2e54779f4aeaffa5500b0e03e5a90ff024f0521d5b9c33f3040542c3e472c79c",
+    "endmembers.png": "ecd23346e3ce5967f6962bf64453fb6830fc1d27868748c55e772fd0670aa620",
+    "run.json": "8bd6bc5b385442920c9814765658199957b6a3d71eb7435938dec181b14c0c06"
+  }
+}

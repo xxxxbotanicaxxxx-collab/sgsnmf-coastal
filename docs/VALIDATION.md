@@ -93,11 +93,20 @@ idéntica salida del eigensolver entre ejecuciones.
 
 EMIT tiene un wrapper pero no una escena real validada. La imagen Docker
 `sgsnmf-coastal:0.1.0` se construyó correctamente en Docker Desktop el
-4-sep-2026; queda por registrar la ejecución del contenedor. Las pruebas
+4-sep-2026. El contenedor completó 100 iteraciones sobre los 730 píxeles del
+snapshot y escribió `abundance_maps.png`, `abundances.nc`,
+`chlorophyll_sanity.png`, `endmembers.png` y `run.json` en el volumen montado.
+Frente al replay de Windows con las mismas versiones fijadas, la diferencia
+absoluta del RMSE físico fue 1,0693e-7, la del SSE final fue 0,0135936 y la
+máxima diferencia de correlación Spearman fue 0,00639588. Los archivos no son
+idénticos byte a byte; estas diferencias son deriva numérica entre plataformas
+y bibliotecas BLAS. Las pruebas
 opcionales omitidas no se contabilizan como aprobadas. La prueba corta de
 Octave en CI comprueba cinco iteraciones y no reemplaza el informe de 100.
-El mismo script de entrada `scripts/reproduce.py` se ejecutó fuera de Docker
-sin red ni intervención y generó los productos de los 730 píxeles y el
+Los hashes SHA-256 y métricas del contenedor están en
+[`docker-validation.json`](docker-validation.json).
+El mismo script de entrada `scripts/reproduce.py` se ejecutó dentro y fuera de
+Docker sin red ni intervención y generó los productos de los 730 píxeles y el
 sanity-check de 719 pares a partir del snapshot incluido.
 
 GitHub Actions ejecutó también las pruebas en Ubuntu: el trabajo `unit`

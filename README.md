@@ -35,7 +35,8 @@ El environment fija las dependencias principales; `requirements.lock.txt`
 fija también las transitivas del entorno verificado, con marcadores para
 paquetes exclusivos de Windows. El Dockerfile Linux está preparado; su
 imagen `sgsnmf-coastal:0.1.0` se construyó correctamente con Docker Desktop
-el 4-sep-2026. La ejecución del contenedor se valida por separado.
+el 4-sep-2026. El contenedor completó el replay incluido y escribió los cinco
+productos previstos en `/results`.
 
 ## Ejemplo completo sin credenciales ni descarga manual
 
